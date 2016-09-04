@@ -1,0 +1,2 @@
+# Ikra-Dobra
+The promo web-site. Technologies: HTML5/SCSS, framework-bootstrap. 
