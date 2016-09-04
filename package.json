@@ -1,0 +1,30 @@
+{
+  "name": "IkraDobra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "moduleType": [],
+  "author": "Rin-ko",
+  "license": "ISC", 
+  "private": true, 
+  "keywords": [],
+  "ignore": [
+    "node_modules",
+    "bower_components"
+  ],
+  "devDependencies": {
+    "bourbon": "^4.2.6", 
+    "node-sass": "^3.4.1",
+    "nodemon": "^1.8.0", 
+    "spa-server": "^0.1.0"
+  },
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node server",
+    "build-css": "node-sass --include-path scss style/style.scss style/compile/style.css",
+    "watch-css": "node-sass -w --include-path scss style/style.scss style/compile/style.css"
+  },
+  "dependencies": {
+    "spa-server": "^0.1.0"
+  }
+}

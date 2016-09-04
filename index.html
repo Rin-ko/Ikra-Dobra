@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="style/compile/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<!--menu-->
+<nav id="navHeight" class="navbar navbar-inverse navbar-fixed-top transparent--background">
+    <div class="container">
+        <div class="navbar-header">
+            <div class="dib left">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand logo" href="#"><img src="img/logo.png" alt=""/></a>
+                <a class=" tel-2 visible-sm-inline-block visible-sm" href="tel:+79500266663">Закажи <b>+7 950 026 6663</b></a>
+
+            </div>
+            <ul class="nav navbar-nav tel hidden-xs hidden-sm">
+                <li>
+                    <a href="tel:+79500266663">Закажи <b>+7 950 026 6663</b></a>
+                </li>
+            </ul>
+
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+
+            <div class="nav navbar-nav pull-right menu-right">
+                <li><a href="index.html">Икра</a></li>
+                <li><a href="delivery.html">Доставка</a></li>
+                <li><a href="about.html">Философия</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </div>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+
+<!--main-text-->
+    <div id="afterMenu" class="main">
+        <div class="container">
+        <div class ="col-md-12 col-sm-6 col-xs-12">
+            <div class="main--text">
+                <p>Икра - это просто, недорого <br>и полезно</p>
+                <a id="toStock" href="#stock">Ассортимент<i class="fa fa-angle-down icon-padding"></i></a>
+                <a href="about.html">Кто мы такие<i class="fa fa-angle-right icon-padding"></i></a>
+            </div>
+        </div>
+     </div>
+</div>
+
+<!--products-->
+<div id="stock" class="container">
+    <div class="products">
+        <div class=" product col-md-4 col-sm-6 col-xs-12" data-toggle="modal" data-target="#myModal">
+            <a href="#" class="text-center fix-height"><img src="img/p1.png"></a>
+            <a href="#" class="text-left">
+                <b>Кета красная</b>
+                <br>320 <i class="fa fa-rub"></i>  / 100 г.
+            </a>
+        </div>
+        <div class=" product col-md-4 col-sm-6 col-xs-12" data-toggle="modal" data-target="#myModal">
+            <a href="#" class="text-center fix-height"><img src="img/p2.png"></a>
+            <a href="#" class="text-left">
+                <b>Горбуша красная</b>
+                <br>330 <i class="fa fa-rub"></i>  / 100 г.
+            </a>
+        </div>
+        <div class=" product col-md-4 col-sm-6 col-xs-12" data-toggle="modal" data-target="#myModal">
+            <a href="#" class="text-center fix-height"><img src="img/p3.png"></a>
+            <a href="#" class="text-left">
+                <b>Стерлядь черная,<br>забойная</b>
+                <br>1850 <i class="fa fa-rub"></i>  / 50 г.
+            </a>
+        </div>
+        <div class=" product col-md-4 col-sm-6 col-xs-12" data-toggle="modal" data-target="#myModal">
+            <a href="#" class="text-center fix-height"><img src="img/p4.png"></a>
+            <a href="#" class="text-left">
+                <b>Стерлядь черная</b>
+                <br>3840 <i class="fa fa-rub"></i>  / 100 г.
+            </a>
+        </div>
+        <div class=" product col-md-4 col-sm-6 col-xs-12" data-toggle="modal" data-target="#myModal">
+            <a href="#" class="text-center fix-height"><img src="img/p5.png"></a>
+            <a href="#" class="text-left">
+                <b>Осетровая черная</b>
+                <br>3550 <i class="fa fa-rub"></i>  / 100 г.
+            </a>
+        </div>
+        <div class=" product col-md-4 col-sm-6 col-xs-12" data-toggle="modal" data-target="#myModal">
+            <a href="#" class="text-center fix-height"><img src="img/p6.png"></a>
+            <a href="#" class="text-left">
+                <b>Осетровая черная,<br>забойная</b>
+                <br>4200 <i class="fa fa-rub"></i>  / 100 г.
+            </a>
+        </div>
+        <div class=" product col-md-4 col-sm-6 col-xs-12" data-toggle="modal" data-target="#myModal">
+            <a href="#" class="text-center fix-height"><img src="img/p7.png"></a>
+            <a href="#" class="text-left">
+                <b>Осетровая черная,<br>забойная</b>
+                <br>1800 <i class="fa fa-rub"></i>  / 50 г.
+            </a>
+        </div>
+        <div class=" product col-md-4 col-sm-6 col-xs-12" data-toggle="modal" data-target="#myModal">
+            <a href="#" class="text-center fix-height"><img src="img/p8.png"></a>
+            <a href="#" class="text-left">
+                <b>Осетровая черная</b>
+                <br>1750 <i class="fa fa-rub"></i>  / 50 г.
+            </a>
+        </div>
+        <div class=" product col-md-4 col-sm-6 col-xs-12" data-toggle="modal" data-target="#myModal">
+            <a href="#" class="text-center fix-height"><img src="img/p9.png"></a>
+            <a href="#" class="text-left">
+                <b>Лососевая красная</b>
+                <br>260 <i class="fa fa-rub"></i>  / 50 г.
+            </a>
+        </div>
+    </div>
+</div>
+
+<!--footer-main-->
+<div class="container">
+    <div class="footer-main">
+        <div class="p-down">
+            <p>Икра — это быстро</p>
+            <p class="down">Мы доставляем икру в течение часа</p>
+        </div>
+        <div class="a-down">
+            <a href="delivery.html" class="down">Подробнее<i class="fa fa-angle-right icon-padding"></i></a>
+        </div>
+    </div>    
+</div>
+
+<!-- Modal -->
+<div class="modal padding-right" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg modal-full-size" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+
+                <!--slider-->
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="false">
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+
+                        <div class="item active">
+                            <div class="container">
+                                <div class="flex">
+                                    <div class="item-photo"><img src="img/full_p1.png"></div>
+                                    <div class="item-description">
+                                        <b >Икра кеты красная</b>
+                                        <p class="second-line"><b >320 <i class="fa fa-rub"></i> / 100 г. </b></p>
+                                        <p>
+                                            Состав:
+                                            </br>Икра зернистая, масло растительное, соль, консерванты Е200, Е211.
+                                        </p>
+                                        <p>
+                                            Пищевая ценность на 100г.:
+                                            </br>Белок - 32 г, жиры - 14 г, кальций - 90 мг, магний - 29 мг, фосфор - 490 мг, железо - 1800 мкг, витамин А - 0,5 мг, калорийность - 250 ккал.
+                                        </p>
+                                        <p>
+                                            Срок годности:
+                                            </br>6 месяцев при температуре от -4 до -6С, 1 месяц при температуре от +2 до +6С. После вскрытия упаковки хранить в холодильнике не более 7 суток.
+                                        </p>
+                                        <p>Упаковка: Пластиковая банка.</p>
+                                        <p>Вылов: Россия, Сахалин.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="container">
+                                <div class="flex">
+                                    <div class="item-photo"><img src="img/full_p2.png"></div>
+                                    <div class="item-description">
+                                        <b >Икра горбуши красная</b>
+                                        <p class="second-line"><b >330 <i class="fa fa-rub"></i> / 100 г. </b></p>
+                                        <p>
+                                            Состав:
+                                            </br>Икра зернистая, масло растительное, соль, консерванты Е200, Е211.
+                                        </p>
+                                        <p>
+                                            Пищевая ценность на 100г.:
+                                            </br>Белок - 32 г, жир - 13 г, В1 - 0,2 мг, В2 - 3 мг, калорийность - 263 ккал.
+                                        </p>
+                                        <p>
+                                            Срок годности:
+                                            </br>6 месяцев при температуре от -4 до -6С, 1 месяц при температуре от +2 до +6С. После вскрытия упаковки хранить в холодильнике не более 7 суток.
+                                        </p>
+                                        <p>Упаковка: Пластиковая банка.</p>
+                                        <p>Вылов: Россия, Сахалин.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="container">
+                                <div class="flex">
+                                    <div class="item-photo"><img src="img/full_p3.png"></div>
+                                    <div class="item-description">
+                                        <b >Икра стерляди черная, забойная</b>
+                                        <p class="second-line"><b >1850 <i class="fa fa-rub"></i> / 50 г. </b></p>
+                                        <p>
+                                            Состав:
+                                            </br>Икра стерляди, соль (3,0 - 3,8 %), комплексная пищевая добавка Варэкс-11.
+                                        </p>
+                                        <p>
+                                            Пищевая ценность на 100г.:
+                                            </br>Белок-28 г, жир-14 г, калорийность-238 ккал
+                                        </p>
+                                        <p>
+                                            Срок годности:
+                                            </br>8 месяцев. Хранить при температуре от -4 до +4 °С
+                                        </p>
+                                        <p>Икра непастеризованная. Упакована под вакуумом.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="container">
+                                <div class="flex">
+                                    <div class="item-photo"><img src="img/full_p4.png"></div>
+                                    <div class="item-description">
+                                        <b >Икра стерляди черная</b>
+                                        <p class="second-line"><b >3840 <i class="fa fa-rub"></i> / 100 г. </b></p>
+                                        <p>
+                                            Состав:
+                                            </br>Икра стерляди, соль (3,0 - 3,8 %), комплексная пищевая добавка Варэкс-11.
+                                        </p>
+                                        <p>
+                                            Пищевая ценность на 100г.:
+                                            </br>Белок-28 г, жир-14 г, калорийность-238 ккал
+                                        </p>
+                                        <p>
+                                            Срок годности:
+                                            </br>8 месяцев. Хранить при температуре от -4 до +4 °С
+                                        </p>
+                                        <p>Икра непастеризованная. Упакована под вакуумом.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="container">
+                                <div class="flex">
+                                    <div class="item-photo"><img src="img/full_p5.jpg"></div>
+                                    <div class="item-description">
+                                        <b >Икра осетровая черная</b>
+                                        <p class="second-line"><b >3550 <i class="fa fa-rub"></i> / 100 г. </b></p>
+                                        <p>
+                                            Состав:
+                                            </br>икра осетра, соль (3,0 - 3,8 %), комплексная пищевая добавка Варэкс-11.
+                                        </p>
+                                        <p>
+                                            Пищевая ценность на 100г.:
+                                            </br>Белок — 28 г., жир — 14 г., калорийность — 238 ккал
+                                        </p>
+                                        <p>
+                                            Срок годности:
+                                            </br>8 месяцев. Хранить при температуре от -4 до +4 °С
+                                        </p>
+                                        <p>Икра непастеризованная. Упакована под вакуумом.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="container">
+                                <div class="flex">
+                                    <div class="item-photo"><img src="img/full_p6.png"></div>
+                                    <div class="item-description">
+                                        <b >Икра осетровая черная, забойная</b>
+                                        <p class="second-line"><b >4200 <i class="fa fa-rub"></i> / 100 г. </b></p>
+                                        <p>
+                                            Состав:
+                                            </br>икра осетра, соль (3,0 - 3,8 %), комплексная пищевая добавка Варэкс-11.
+                                        </p>
+                                        <p>
+                                            Пищевая ценность на 100г.:
+                                            </br>Белок — 28 г., жир — 14 г., калорийность — 238 ккал
+                                        </p>
+                                        <p>
+                                            Срок годности:
+                                            </br>8 месяцев. Хранить при температуре от -4 до +4 °С
+                                        </p>
+                                        <p>Икра непастеризованная. Упакована под вакуумом.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="container">
+                                <div class="flex">
+                                    <div class="item-photo"><img src="img/full_p7.png"></div>
+                                    <div class="item-description">
+                                        <b >Икра осетровая черная, забойная</b>
+                                        <p class="second-line"><b >1800 <i class="fa fa-rub"></i> / 50 г. </b></p>
+                                        <p>
+                                            Состав:
+                                            </br>Икра осетра, соль (3,0 - 3,8 %), комплексная пищевая добавка Варэкс-11.
+                                        </p>
+                                        <p>
+                                            Пищевая ценность на 100г.:
+                                            </br>Белок — 28 г., жир — 14 г., калорийность — 238 ккал
+                                        </p>
+                                        <p>
+                                            Срок годности:
+                                            </br>8 месяцев. Хранить при температуре от -4 до +4 °С
+                                        </p>
+                                        <p>Икра непастеризованная. Упакована под вакуумом.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="container">
+                                <div class="flex">
+                                    <div class="item-photo"><img src="img/full_p8.jpg"></div>
+                                    <div class="item-description">
+                                        <b >Икра осетровая черная</b>
+                                        <p class="second-line"><b >1750 <i class="fa fa-rub"></i> / 50 г. </b></p>
+                                        <p>
+                                            Состав:
+                                            </br>Икра осетра, соль (3,0 - 3,8 %), комплексная пищевая добавка Варэкс-11.
+                                        </p>
+                                        <p>
+                                            Пищевая ценность на 100г.:
+                                            </br>Белок — 28 г., жир — 14 г., калорийность — 238 ккал
+                                        </p>
+                                        <p>
+                                            Срок годности:
+                                            </br>8 месяцев. Хранить при температуре от -4 до +4 °С
+                                        </p>
+                                        <p>Икра непастеризованная. Упакована под вакуумом.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="container">
+                                <div class="flex">
+                                    <div class="item-photo"><img src="img/full_p9.jpg"></div>
+                                    <div class="item-description">
+                                        <b >Икра лососевая красная</b>
+                                        <p class="second-line"><b >260 <i class="fa fa-rub"></i> / 50 г. </b></p>
+                                        <p>
+                                            Состав:
+                                            </br>Икра, соль, масло растительное, влагоудерживающий агент Е422, консерванты Е200, Е211.
+                                        </p>
+                                        <p>
+                                            Пищевая ценность на 100г.:
+                                            </br>Белки - 30г, жиры - 11г, витамины А - 0,25 мг, В1 - 0,50 мг, В2 - 0,4 мг, РР - 1,4 мг, калорийность - 230 ккал.
+                                        </p>
+                                        <p>
+                                            Срок годности:
+                                            </br>12 месяцев при температуре от -4 до -6 С, 3 месяца при температуре от +2 до +6 С. После вскрытия упаковки хранить в холодильнике не более 7 суток.
+                                        </p>
+                                        <p>Упаковка: Жестяная банка.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                            <span class="fa fa-angle-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                            <span class="fa fa-angle-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
+<script>
+    $(document).ready(function (){
+        $("#toStock").click(function (){
+            $('html, body').animate({
+                scrollTop: $("#stock").offset().top-70
+            }, 200);
+        });
+    });
+
+    $( window ).scroll(function() {
+        //$("#afterMenu").height()-$("#navHeight").height()
+        if (10<$(window).scrollTop()){
+            $('nav').removeClass('transparent--background');
+        } else {
+            $('nav').addClass('transparent--background');
+        }
+    });
+
+
+</script>
+</body>
+</html>
