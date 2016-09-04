@@ -67,6 +67,15 @@
 
 @import "../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 
+@import "../bower_components/bourbon/app/assets/stylesheets/_bourbon.scss";
+
+//comment
+@include font-face("museo_sans_cyrl100", "museosanscyrl-webfont.eot");
+@include font-face("museo_sans_cyrl900", "museosanscyrl_3-webfont.eot");
+@include font-face("museo_sans_cyrl700", "museosanscyrl_2-webfont.eot");
+@include font-face("museo_sans_cyrl500", "museosanscyrl_1-webfont.eot");
+@include font-face("museo_sans_cyrl300", "museosanscyrl_0-webfont.eot");
+
 .navbar{
   font-size: 18px;
   background:black;

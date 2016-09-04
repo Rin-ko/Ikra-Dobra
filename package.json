@@ -22,6 +22,7 @@
     "prestart": "npm install",
     "start": "node server",
     "build-css": "node-sass --include-path scss style/style.scss style/compile/style.css",
+    "prewatch-css": "node-sass --include-path scss style/style.scss style/compile/style.css",
     "watch-css": "node-sass -w --include-path scss style/style.scss style/compile/style.css"
   },
   "dependencies": {
